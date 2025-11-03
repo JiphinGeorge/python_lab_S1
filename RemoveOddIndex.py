@@ -6,4 +6,4 @@ str=input("Enter a String :")
 def remove(str):
     return str[::2]
 
-print("The String {} after removing all Odd Indexed Charaters is {}".format(str,remove(str)))
+print("The String '{}' after removing all Odd Indexed Charaters is '{}' ".format(str,remove(str)))
